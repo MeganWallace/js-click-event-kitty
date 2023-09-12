@@ -9,8 +9,8 @@ var cat = document.querySelector(".cat");
 
 button.addEventListener("click", function () {
   if (cat.classList.contains("show")) {
-    console.log("Yes");
+    cat.classList.remove("show");
   } else {
-    console.log("No");
+    cat.classList.add("show");
   }
 });
